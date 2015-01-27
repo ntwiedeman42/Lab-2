@@ -25,7 +25,7 @@ int Keyboard::readInt(string prompt)
 
 int Keyboard::getValidatedInt(string prompt, int min, int max)
 {
-   int validated = readInt(prompt);
+   int validated = readInt(prompt); // Doug's comment
    cout << validated << endl;
 
    while(validated < min || validated > max)
