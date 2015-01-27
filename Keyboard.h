@@ -3,7 +3,7 @@
 
 #include "Text.h"
 #include <string>
-using namespace std;
+using namespace std; //comment akjihdekajsh
 
 class Keyboard
 {
